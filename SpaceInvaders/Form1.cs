@@ -51,6 +51,8 @@ namespace SpaceInvaders
                     this.BackgroundImage = null;
                     Nave = new ClNave(this);
                 }else{
+                    //TODO
+                    // * Falta añador sonido disparo
                     llProyectilList.Add(new ClProyectil(this, Nave, llInvader));
                     // AL ultimo elemento de la lista le damos el evento
                     llProyectilList[llProyectilList.Count - 1].borrarProyectil += new EventHandler<Panel>(borrarProyectil);              
