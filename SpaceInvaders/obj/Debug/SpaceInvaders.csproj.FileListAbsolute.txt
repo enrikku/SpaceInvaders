@@ -1,0 +1,10 @@
+C:\DAM2\C#\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.exe.config
+C:\DAM2\C#\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.exe
+C:\DAM2\C#\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.pdb
+C:\DAM2\C#\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.csproj.AssemblyReference.cache
+C:\DAM2\C#\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.FormMain.resources
+C:\DAM2\C#\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.Properties.Resources.resources
+C:\DAM2\C#\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.csproj.GenerateResource.cache
+C:\DAM2\C#\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.csproj.CoreCompileInputs.cache
+C:\DAM2\C#\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.exe
+C:\DAM2\C#\SpaceInvaders\SpaceInvaders\obj\Debug\SpaceInvaders.pdb
