@@ -113,5 +113,8 @@
   <ItemGroup>
     <None Include="Resources\space_invaders_sprite_sheet_by_gooperblooper22.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bloop.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

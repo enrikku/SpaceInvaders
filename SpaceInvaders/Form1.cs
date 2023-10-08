@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -21,6 +22,8 @@ namespace SpaceInvaders
         List<ClInvader>llInvader = new List<ClInvader>();
         List<Bitmap> llImagesA = new List<Bitmap>();
         List<Bitmap> llImagesB = new List<Bitmap>();
+
+        SoundPlayer shoot = new SoundPlayer(Application.StartupPath + @"\..\..\bloop.wav");
 
         private void imagesA(){
             llImagesA.Add(Properties.Resources.spi01a);
@@ -55,7 +58,9 @@ namespace SpaceInvaders
                     // * Falta añador sonido disparo
                     llProyectilList.Add(new ClProyectil(this, Nave, llInvader));
                     // AL ultimo elemento de la lista le damos el evento
-                    llProyectilList[llProyectilList.Count - 1].borrarProyectil += new EventHandler<Panel>(borrarProyectil);              
+                    llProyectilList[llProyectilList.Count - 1].borrarProyectil += new EventHandler<Panel>(borrarProyectil);
+
+                    shoot.Play();
                 }
             }
         }
